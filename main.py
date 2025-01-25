@@ -8,9 +8,6 @@ st.markdown("I love python")
 st.code("""for i in range(1,5,1):
            print("hello")
         """)
-# Specify the file path
-#df = pd.read_excel(r"C:\Users\DELL\PycharmProjects\streamlitpro\african_crises.xlsx")
-#print(df.head())
 
 dataset = pd.read_excel(r"C:\Users\DELL\PycharmProjects\streamlitpro\african_crises.xlsx")
 st.dataframe(dataset)
